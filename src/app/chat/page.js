@@ -4,9 +4,7 @@ import { useState, useEffect } from "react";
 import { io } from "socket.io-client";
 import ChatBox from "../../components/ChatBox";
 
-//const socket = io("http://localhost:3000");
-//const socket = io("http://192.168.100.166:3000");
-const socket = io("http://192.168.150.183:3000");
+const socket = io("http://localhost:3000");
 
 
 
